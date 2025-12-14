@@ -1,0 +1,32 @@
+/* static/style.css */
+:root {
+  --pico-font-family: "JetBrains Mono", "Fira Code", monospace;
+  --pico-primary: #10b981; /* Matrix Green */
+  --pico-background-color: #0f172a; /* Deep Systems Blue/Black */
+  --pico-card-background-color: #1e293b;
+  --pico-color: #e2e8f0;
+}
+
+/* Custom Scrollbar for Webkit */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0f172a; 
+}
+::-webkit-scrollbar-thumb {
+  background: #334155; 
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #10b981; 
+}
+
+h1, h2, h3 {
+  letter-spacing: -0.05em;
+}
+
+article {
+  border: 1px solid #334155;
+  box-shadow: none;
+}

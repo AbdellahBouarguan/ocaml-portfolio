@@ -1,3 +1,4 @@
 (library
  (name portfolio_lib)
- (libraries dream))
+ (libraries dream cohttp-lwt-unix yojson ppx_yojson_conv_lib)
+ (preprocess (pps ppx_yojson_conv lwt_ppx)))
