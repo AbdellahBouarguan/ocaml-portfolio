@@ -1,0 +1,7 @@
+{
+    "editor.formatOnSave": true,
+    "[ocaml]": {
+        "editor.defaultFormatter": "ocamllabs.ocaml-platform",
+        "editor.tabSize": 2
+    }
+}

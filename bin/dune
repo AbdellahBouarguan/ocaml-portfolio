@@ -1,0 +1,4 @@
+(executable
+ (public_name portfolio)
+ (name main)
+ (libraries portfolio_lib dream))
