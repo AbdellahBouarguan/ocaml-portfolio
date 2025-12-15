@@ -10,5 +10,6 @@ let () =
            Dream.get "/skills" Handlers.skills_view;
            Dream.get "/contact" Handlers.contact_view;
            Dream.get "/status" Handlers.status_view;
+           Dream.get "/source" Handlers.source_code_view;
            Dream.get "/static/**" (Dream.static "static");
          ])
